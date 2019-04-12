@@ -20,6 +20,11 @@ public class DemoApplication extends SpringBootServletInitializer {
      * @return
      */
 
+    /**
+     * RabbitMq-SpringBoot
+     * @return
+     */
+
     @Bean
     public ObjectMapper objectMapper(){
         ObjectMapper objectMapper = new ObjectMapper();
