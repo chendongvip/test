@@ -15,6 +15,10 @@ import org.springframework.context.annotation.ImportResource;
 @ImportResource(locations = {"classpath:spring/spring-jdbc.xml"})
 @EnableCaching
 public class DemoApplication extends SpringBootServletInitializer {
+    /**
+     * baicuo fgjaskdjgkladsjgklj
+     * @return
+     */
 
     @Bean
     public ObjectMapper objectMapper(){
